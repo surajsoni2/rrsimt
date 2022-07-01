@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+/* services section styling */
+.placements, .teams{
+    color:#fff;
+    background: #111;
+}
+.placements .title::before,
+.teams .title::before{
+    background: #fff;
+}
+.placements .title::after,
+.teams .title::after{
+    background: #111;
+    content: "what i provide";
+}
+.placements .place-content .card{
+    width: calc(45% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.placements .place-content .card:hover{
+    background: #1363DF;
+}
+.placements .place-content .card .box{
+    transition: all 0.3s ease;
+}
+.placements .place-content .card:hover .box{
+    transform: scale(1.05);
+}
+.placements .place-content .card i{
+    font-size: 50px;
+    color: #1363DF;
+    transition: color 0.3s ease;
+}
+.placements .place-content .card:hover i{
+    color: #fff;
+}
+.placements .place-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+
+.back a{
+    margin: auto;
+    align-items: center;
+    display: inline-block;
+    background: #1363DF;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #1363DF;
+    transition: all 0.3s ease;
+}
+.back a:hover{
+    color: #1363DF;
+    background: none;
+}
+.backToHome{
+    text-align: center;
+}
